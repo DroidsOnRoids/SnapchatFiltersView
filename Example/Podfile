@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SnapchatFiltersView_Example', :exclusive => true do
+  pod "SnapchatFiltersView", :path => "../"
+end
+
+target 'SnapchatFiltersView_Tests', :exclusive => true do
+  pod "SnapchatFiltersView", :path => "../"
+
+  
+end
