@@ -13,10 +13,11 @@
 		2A6D506C2FF6DE49B987E01B05A8CB1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		69AD46B7E2F8143BC4A45CC9CB2E459F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		848E5B9C3F2609F86ED1F89863A1DE36 /* Pods-SnapchatFiltersView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF66A2052A495AF1C0C180ABEAF1EE6D /* Pods-SnapchatFiltersView_Tests-dummy.m */; };
+		84D1A2C51C11E6CF00BF8CDA /* FiltersImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1A2C41C11E6CF00BF8CDA /* FiltersImageView.swift */; };
+		84D1A2C71C11E7B600BF8CDA /* CircularArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1A2C61C11E7B600BF8CDA /* CircularArray.swift */; };
 		B27B2FF4656003A4CB294D01998D792C /* SnapchatFiltersView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E765CCAB621A43EDC75B422314A6752B /* SnapchatFiltersView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5E82BE312845FB0A56D7D600EEC7316 /* SnapchatFiltersView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CA0021986CA2F030E2D3EEC5F38155 /* SnapchatFiltersView-dummy.m */; };
 		D533AD3E652E9D1722485688383FE7D8 /* Pods-SnapchatFiltersView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8CB6BA0A1B99EA99BA58809EB28E3E /* Pods-SnapchatFiltersView_Example-dummy.m */; };
-		E41E5B7E3BF080BA6D09D43DFBF07D86 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B77516BB6F88D3E2A81502981FC845 /* ReplaceMe.swift */; };
 		F27793129892FF2F3BE22D9B60E135BF /* SnapchatFiltersView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D634018CB819069AC9042293BAE3A5DF /* SnapchatFiltersView.bundle */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +52,6 @@
 		2C761820EFAAF639D743DEDDDA6CA527 /* Pods-SnapchatFiltersView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnapchatFiltersView_Example.modulemap"; sourceTree = "<group>"; };
 		353222593A8F901DEC24CDBB11FA18BE /* Pods-SnapchatFiltersView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnapchatFiltersView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42B77516BB6F88D3E2A81502981FC845 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		48008595D8B0B8811279395808624BC5 /* Pods-SnapchatFiltersView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapchatFiltersView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		487BFBFEFC7757C7FF2F123CDEC590BB /* Pods-SnapchatFiltersView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapchatFiltersView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AE39F1599C043F1F6CC9A8DA08366E1 /* Pods-SnapchatFiltersView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnapchatFiltersView_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -63,6 +63,8 @@
 		7997DC420E3E8DFE6B49897141BA20E6 /* Pods-SnapchatFiltersView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SnapchatFiltersView_Tests.modulemap"; sourceTree = "<group>"; };
 		80CFF9AA007863C0021F7E2702743082 /* Pods-SnapchatFiltersView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnapchatFiltersView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83685D2382843A68A0C59B2B38D37B25 /* SnapchatFiltersView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapchatFiltersView.xcconfig; sourceTree = "<group>"; };
+		84D1A2C41C11E6CF00BF8CDA /* FiltersImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltersImageView.swift; sourceTree = "<group>"; };
+		84D1A2C61C11E7B600BF8CDA /* CircularArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularArray.swift; sourceTree = "<group>"; };
 		89CA0021986CA2F030E2D3EEC5F38155 /* SnapchatFiltersView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapchatFiltersView-dummy.m"; sourceTree = "<group>"; };
 		A350E2CCF091020E628BFAE4079E1902 /* SnapchatFiltersView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapchatFiltersView-prefix.pch"; sourceTree = "<group>"; };
 		B02B81AC3068F7445A512AD2BC8EFCBC /* SnapchatFiltersView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapchatFiltersView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,7 +160,8 @@
 		773C9FA4276B9ADDD7A7442AC1E57E6B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				42B77516BB6F88D3E2A81502981FC845 /* ReplaceMe.swift */,
+				84D1A2C41C11E6CF00BF8CDA /* FiltersImageView.swift */,
+				84D1A2C61C11E7B600BF8CDA /* CircularArray.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,7 +357,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -407,6 +410,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D1A2C51C11E6CF00BF8CDA /* FiltersImageView.swift in Sources */,
+				84D1A2C71C11E7B600BF8CDA /* CircularArray.swift in Sources */,
 				D533AD3E652E9D1722485688383FE7D8 /* Pods-SnapchatFiltersView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,7 +420,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41E5B7E3BF080BA6D09D43DFBF07D86 /* ReplaceMe.swift in Sources */,
 				B5E82BE312845FB0A56D7D600EEC7316 /* SnapchatFiltersView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -669,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 536366356EFA23E755675676383EE4F3 /* Pods-SnapchatFiltersView_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -700,6 +705,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFA72CF80F97CDC838D6C1724CFDA6FA /* Pods-SnapchatFiltersView_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
