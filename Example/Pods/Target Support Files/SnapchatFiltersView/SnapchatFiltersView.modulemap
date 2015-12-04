@@ -1,0 +1,6 @@
+framework module SnapchatFiltersView {
+  umbrella header "SnapchatFiltersView-umbrella.h"
+
+  export *
+  module * { export * }
+}

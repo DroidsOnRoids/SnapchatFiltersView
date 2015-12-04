@@ -1,0 +1,14 @@
+PODS:
+  - SnapchatFiltersView (0.1.0)
+
+DEPENDENCIES:
+  - SnapchatFiltersView (from `../`)
+
+EXTERNAL SOURCES:
+  SnapchatFiltersView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnapchatFiltersView: 67f601d447435e6134c5ee8129cdf2b1cc066741
+
+COCOAPODS: 0.39.0
